@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Snake Game</title>
+	<link rel="stylesheet" href="./css/style.min.css">
+</head>
+<body style="margin: 0;">
+	<div id="wrapper">
+		<div class="info">
+			<ul>
+				<li>Score: <span id="score">0</span></li>
+				<li>Best Score: <span id="best-score">0</span></li>
+				<li><div id="help-link">Help</div></li>
+				<li><div id="instruction-link">Instructions</div></li>
+			</ul>
+		</div>
+		<div class="info"><i>Press arrow key to start</i></div>
+		<canvas id="canvas">Your browser does not support canvas</canvas>
+		<div id="pause-effect" class="info pause hidden">Paused</div>
+		<div id="help-window" class="hidden">
+			<div class="help-content">
+				<span class="close-btn" id="help-close-btn">&times;</span>
+				<h2>HELP</h2>
+				<br>
+				<p>Arrow Up or W : Move Up</p>
+				<p>Arrow Left or A : Move Left</p>
+				<p>Arrow Down or S : Move Down</p>
+				<p>Arrow Right or D : Move Right</p>
+				<br>
+				<p>P : Pause</p>
+			</div>
+		</div>
+		<div id="instruction-window" class="hidden">
+			<div class="help-content">
+				<span class="close-btn" id="instruction-close-btn">&times;</span>
+				<h2>Instructions</h2>
+				<br>
+				<p>The objective of the Snake game is to navigate a continuously moving snake to eat food items, causing it to grow in length and gain points. The game ends if the snake runs into the walls of the playing area or collides with its own body.</p>
+			</div>
+		</div>
+	</div>
+	<script src="./js/game.min.js"></script>
+</body>
+</html>
