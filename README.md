@@ -1,6 +1,8 @@
 # Snake Game
 [**Play the Game Here!**](https://dvarshith.github.io/snake-game/)  
 
+<br/>
+
 A **classic Snake** game built using **vanilla JavaScript**—just HTML, CSS, and JS for that retro fun. Steer your snake to eat the food, but don’t run into yourself!
 
 <br/>
