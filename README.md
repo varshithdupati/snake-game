@@ -1,5 +1,5 @@
 # Snake Game
-[**Play the Game Here!**](https://varshithdupati.com/snake-game/))  
+[**Play the Game Here!**](https://varshithdupati.com/snake-game/)  
 
 <br/>
 
